@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>javascript current date&time</title>
+        <body>
+            <script>
+                var today = new date();
+                var dd = today.getdate();
+                var mm = today.getmonth()+1;
+                var yyyy = today.getfullyear();
+                if(dd<10)
+                {
+                    dd='0'+dd;
+                }
+                if(mm<10)
+                {
+                    mm='0'+mm;
+                }
+                today = mm+'-'+dd+'-'+yyyy;
+                document.write(today);
+                today = mm+'/'+dd+'/'+yyyy;
+                document.write(today);
+                today = dd+'-'+mm+'-'+yyyy;
+                document.write(today);
+                today = dd+'/'+mm+'/'+yyyy;
+                document.write(today);
+
+            </script>
+        </body>
+    </head>
+</html>
