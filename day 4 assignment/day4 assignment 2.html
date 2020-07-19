@@ -1,0 +1,73 @@
+<html>
+<HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Dice Game -->
+
+
+<!-- player 1
+var die = 6;
+var dice = 2;
+var player1 = 0;
+var player2 = 0;
+
+function dice_roll(die, dice) {
+var roll = 0;
+for (loop=0; loop < dice; loop++) {
+roll = roll + Math.round(Math.random() * die) % die + 1;
+}
+document.form.text.value = roll;
+}
+player1 = roll;
+// End -->
+
+<!-- player 2
+function dice_roll2(die, dice) {
+var roll = 0;
+for (loop=0; loop < dice; loop++) {
+roll = roll + Math.round(Math.random() * die) % die + 1;
+}
+document.form.text.value = roll;
+}
+player2 = roll;
+// End -->
+
+if (player_1 = player_2) 
+alert("DRAW!")
+
+else if (player_1 > player_2)
+alert("Player 1 is the winner!")
+
+else if (player_1 < player_2)
+alert("Player 2 is the winner!")
+
+</script>
+
+<body>
+<form name=form>
+<table border=2 cellpadding=5>
+<tr>
+<td colspan=2 align=middle>No. of sides/dice</td>
+
+</tr>
+<tr>
+<td valign=top align=middle>
+<p><input type=radio checked name=sides onClick="die = 6">6 Sided
+</td>
+<td valign=top align=middle>
+<p><input name=number type=radio onClick="dice = 2" checked>
+2
+</td>
+</tr>
+<tr>
+<td align=middle colspan=4>
+<input type=button value="Roll Dice" name="button "onClick="dice_roll(die, dice)">
+<input type=text size=10 name=text>
+</td>
+</tr>
+</table>
+</form>
+
+</center>
+</body>
+</html
